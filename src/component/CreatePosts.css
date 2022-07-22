@@ -1,0 +1,33 @@
+.create-post {
+  background-color: #fff;
+  border-radius: 100px;
+  padding: 8%;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+}
+.create-post h2 {
+  text-align: center;
+  color: rgb(13, 110, 253);
+  font-weight: 600;
+}
+.create-post input {
+  border-radius: 100px;
+  border-color: rgb(13, 110, 253);
+}
+.create-post textarea {
+  border-color: rgb(13, 110, 253);
+}
+.create-post button {
+  border: none;
+  color: rgb(13, 110, 253);
+  border-radius: 100px;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+  font-weight: bold;
+  position: relative;
+  transition: 0.8s;
+}
+.create-post button:hover {
+  background-color: rgb(13, 110, 253);
+  color: #fff;
+  font-weight: 600;
+  top: 10px;
+}

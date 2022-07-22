@@ -1,0 +1,10 @@
+.postsSave {
+  padding: 0;
+}
+.detailsPost {
+  padding: 40px 50px 10px 10px !important;
+}
+.postsSave img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}

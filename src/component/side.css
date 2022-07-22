@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  position: absolute;
+  top: 12%;
+  left: 2%;
+}
+
+.wrapper .sidebar {
+  width: 250px;
+  height: 80%;
+  padding: 30px 0px;
+  position: fixed;
+  border-radius: 40px;
+}
+
+.wrapper .sidebar h2 {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li {
+  list-style: none;
+  padding: 15px;
+  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.wrapper .sidebar ul li a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}
+
+.wrapper .sidebar ul li a .fas {
+  width: 25px;
+}
+
+.wrapper .sidebar ul li:hover {
+  background-color: #fff;
+}
+
+.wrapper .sidebar ul li:hover a {
+  color: rgb(13, 110, 253);
+}
+
+.wrapper .sidebar .social_media {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.wrapper .sidebar .social_media a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 5px;
+  color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 25px;
+}
+
+.right-side {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 10%;
+  left: 98%;
+}
+.rside {
+  width: 250px;
+  height: 80%;
+  padding: 30px 0px;
+  position: fixed;
+  border-radius: 40px;
+}
+.rside ul li {
+  list-style: none;
+  padding: 15px;
+  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+.rside ul li a {
+  color: #000;
+  display: block;
+  text-decoration: none;
+}
+.rside ul li a .fas {
+  width: 25px;
+  color: rgb(13, 110, 253);
+}
+.rside h2 {
+  color: #65678b;
+  font-size: 20px;
+}
+.sponser {
+  border-bottom: 1px solid;
+}
+.rside span a {
+  color: #65678b;
+  text-decoration: none;
+}
+.dd {
+  transition: all 0.8s;
+  padding: 3px 0px 3px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.dd:hover {
+  background-color: #fafafa;
+}
