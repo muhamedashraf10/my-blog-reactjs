@@ -8,30 +8,30 @@ If you have an email, you must log in to the site and you will have the authorit
 
 ### Uses
 
--React js
--Bootstrab
--useContext
--React-Router-Dom
--fireBase
--firestore
--Authentication
--Storage
+- React js
+- Bootstrab
+- useContext
+- React-Router-Dom
+- fireBase
+- firestore
+- Authentication
+- Storage
 
 ### Details
 
--sign in
--sign up
--create post
--upload image
--search post
--save post
--CRUD post
--Details post
--Like/DisLike
--Comment/DeleteComent
--a lot of Pages/Commponent
--Icons
+- sign in
+- sign up
+- create post
+- upload image
+- search post
+- save post
+- CRUD post
+- Details post
+- Like/DisLike
+- Comment/DeleteComent
+- a lot of Pages/Commponent
+- Icons
 
 Click anything in web site (icon - link - sponser - sidebar -navbar) expect blog in sidebar and all link and icon of footer .
 
-[You can visit it Live](https://my-blog-reactjs.vercel.app/) .
+#### You can visit it Live [https://my-blog-reactjs.vercel.app/](https://my-blog-reactjs.vercel.app/) .
