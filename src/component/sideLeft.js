@@ -8,7 +8,7 @@ const SideLeft = () => {
         <h2>Sidebar</h2>
         <ul>
           <li>
-            <Link to="#">
+            <Link to="/">
               <i className="fas fa-home"></i>Home
             </Link>
           </li>
@@ -18,7 +18,7 @@ const SideLeft = () => {
             </Link>
           </li>
           <li>
-            <Link to="#">
+            <Link to="/about">
               <i className="fas fa-address-card"></i>About
             </Link>
           </li>
